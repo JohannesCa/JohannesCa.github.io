@@ -19,7 +19,7 @@ Para este trabalho começamos preparando o Modelo de Ouro para o Circuito Somado
 
 Segue então o Diagrama para o circuito Somador/Subtrator de 4 Bits com Acumulador:
 
-![addacc4bit](/images/addacc.jpg "Esquema AddAcc 4bits")
+![addacc4bit](/images/2016-10-07-ceci-addacc/addacc.jpg "Esquema AddAcc 4bits")
 
 O circuito possui apenas um barramento de entrada de 4 bits e outros dois sinais de entrada ***Sel0*** e ***Sel1***. Estes sinais ___'Sel'___ é que dirão quais operações serão realizadas no circuito. O circuito deve operar como o seguinte:
 
@@ -146,7 +146,7 @@ Assim, eu chamo essa função em um laço no _main_ variando as entradas para te
 
 E imprimo na saída padrão uma tabela com os resultados:
 
-![printCPuro](/images/cpuro.png)
+![printCPuro](/images/2016-10-07-ceci-addacc/cpuro.png)
 
 Esta é uma tela parcial, não contém todos os resultados. Com esses testes o circuito deve seguir corretamente com as entradas.
 
@@ -182,7 +182,7 @@ Temos as macros:
 
 Utilizando tais macros no código C, temos a geração personalizada do Modelo de Ouro com o Genpat e conseguimos gerar o aquivo .pat com sucesso. Abaixo a imagem de um treho do .pat gerado.
 
-![printGenpat](/images/genpat.png)
+![printGenpat](/images/2016-10-07-ceci-addacc/genpat.png)
 
 
 O código para o Genpat encontra-se no mesmo [repositório](https://github.com/JohannesCa/4bit_adder_acc "JohannesCa/4bit_adder_acc"), sob o diretório "Genpat".
